@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aaron Chen" />
+        <title>WOMENJENKA</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    </head>
+    <body>
+        <!-- NAV START -->
+        <nav class="bg-cool-400 shadow-lg sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center py-4 px-2">
+                    <img src="img/logo.png" alt="Logo" class="h-8 mr-2" />
+                    <span class="font-semibold text-cool-100 text-lg"
+                    >WOMENJENKA</span
+                    >
+                </a>
+                </div>
+                <!-- Primary Navbar items -->
+                <div class="hidden md:flex items-center space-x-1">
+                <!--<a href="/" class="py-4 px-2 text-slate-100 font-semibold">HOME</a>-->
+                <a href="graph.html" class="py-4 px-2 text-cool-100 font-semibold"
+                    >GRAPH & NUMERICAL ANALYSIS</a
+                >
+                <a href="Historical_Source.html" class="py-4 px-2 text-cool-100 font-semibold"
+                    >HISTORICAL NEWSPAPER ANALYSIS</a
+                >
+                <a
+                    href="bibliography.html"
+                    class="py-4 px-2 text-cool-100 font-semibold"
+                    >BIBLIOGRAPHY</a
+                >
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                <button class="outline-none mobile-menu-button">
+                    <svg
+                    class="w-6 h-6 text-slate-100 hover:text-slate-900"
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    >
+                    <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                </div>
+            </div>
+            </div>
+            <!-- Mobile menu -->
+            <div class="hidden mobile-menu">
+            <ul>
+                <li class="active">
+                <a
+                    href="/"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >HOME</a
+                >
+                </li>
+                <li>
+                <a
+                    href="graph.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >GRAPH & NUMERICAL ANALYSIS</a
+                >
+                </li>
+                <li>
+                <a
+                    href="Historical_Source.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >HISTORICAL NEWSPAPER ANALYSIS</a
+                >
+                </li>
+                <li>
+                <a
+                    href="bibliography.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >Bibliography</a
+                >
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <!-- NAV END-->
+        
+        <!-- Carousel Container -->
+        <div class="carousel relative bg-white shadow-lg overflow-hidden w-full">
+            <!-- Carousel Inner -->
+            <div class="carousel-inner relative flex w-auto transition-transform duration-500 ease-in-out">
+                <!-- Slides -->
+                <!-- Slide 1 -->
+                <div class="carousel-item min-h-[600px] flex justify-center items-center w-full flex-shrink-0 relative">
+                    <!-- Background Image -->
+                    <img class="block w-full h-full object-cover absolute top-0 left-0" src="img/renewable_1.jpg" alt="Slide 1" />
+                
+                    <!-- Dark Overlay (to darken the background) -->
+                    <div class="absolute inset-0 bg-black opacity-50"></div>
+                
+                    <!-- Content (text and button) -->
+                    <div class="z-10 flex flex-col justify-center items-center text-center text-white p-4">
+                        <h2 class="text-4xl font-bold mb-4">Graph & Numerical Analysis</h2>
+                        <p class="text-xl animate-bounce mb-4">
+                            Dive into the numbers
+                        </p>
+                        <a class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" href="graph.html">View</a>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="carousel-item min-h-[600px] flex justify-center items-center w-full flex-shrink-0 relative">
+                    <img class="block w-full h-full object-cover absolute top-0 left-0" src="img/train_1.jpg" alt="Aztec Painting" />
+                    <div class="z-10 flex flex-col justify-center items-center text-center text-white p-4">
+                        <h2 class="text-4xl font-bold animate-pulse mb-4">Historical Newspaper Analysis</h2>
+                        <p class="text-xl animate-bounce mb-4">
+                            Dive into detailed primary source analysis.
+                        </p>
+                        <a class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" href="Historical_Source.html">View</a>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item min-h-[600px] flex justify-center items-center w-full flex-shrink-0 relative">
+                    <img class="block w-full h-full object-cover absolute top-0 left-0" src="img/train_line.jpg" alt="Map of Tenochtitlan" />
+                    <div class="absolute inset-0 bg-black opacity-50"></div>
+                    <div class="z-10 flex flex-col justify-center items-center text-center text-white p-4">
+                        <h2 class="text-4xl font-bold mb-4">Bibliography</h2>
+                        <p class="text-xl animate-bounce mb-4">
+                            Our sources in AP7 Style referencing
+                        </p>
+                        <a class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" href="bibliography.html">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <button class="carousel-control-prev absolute top-0 bottom-0 left-0 p-3 cursor-pointer bg-transparent hover:bg-gray-200 text-gray-800 hover:text-gray-600">
+                &#10094;
+            </button>
+            <button class="carousel-control-next absolute top-0 bottom-0 right-0 p-3 cursor-pointer bg-transparent hover:bg-gray-200 text-gray-800 hover:text-gray-600">
+                &#10095;
+            </button>
+        </div>
+        <!-- Carousel Container end-->
+
+
+        <!-- Add Image banner content start -->
+        <div class="relative bg-gray-800">
+        <div class="absolute inset-0">
+          <img
+            alt="Automotive background image"
+            class="w-full h-full object-cover"
+            height="1080"
+            src="img/bus_1.jpg"
+            width="1920"
+          />
+          <div
+            aria-hidden="true"
+            class="absolute inset-0 bg-gray-800 mix-blend-multiply"
+          ></div>
+        </div>
+        <div
+          class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"
+        >
+          <h1
+            class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl"
+          >
+            Introduction
+          </h1>
+          <p class="mt-6 text-xl text-gray-300 max-w-3xl">
+            Many people of all ages in Victoria rely on public transportation to get around the state and, most importantly, to go to work. Victorian public transport is clearly a huge part of the average person’s life. With that many people using transport, there is a need for improved transport infrastructure. The tough part is figuring out how to develop more buses, trams, and other vehicles sustainably. 
+            According to the Australian Energy Update 2023 by the Department of Climate Change, there has already been multiple efforts to make public transport more sustainable. For example, you’ll find that most trams are solar powered, and trains are powered by electricity, both of which are renewable energy. This is true, but despite their claims, it isn’t as sustainable as it sounds. You see, the electrical energy indeed is renewable, but its source isn’t. The electricity is created via solar panels, which usually on its own would be a good sustainable solution. However, since they are taking up a lot of land, and are placed in mass amounts, they are actually bad for the environment.
+            
+          </p>
+        </div>
+        </div>
+        <!-- Add image banner content end -->
+
+
+        <!-- Image and Text Start-->
+        <section class="text-black bg-gray-100 py-8">
+            <div class="container mx-auto px-4">
+              <div class="flex flex-wrap -mx-4">
+                <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 order-last lg:order-first">
+                  <img class="w-full h-auto" src="img/train_1.jpg" alt="">
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 order-first lg:order-last">
+                  <h2 class="text-3xl font-bold mb-4">Future Plans</h2>
+                  <p>To create truly sustainable infrastructure, we must accelerate the transition to renewables, ensuring that this shift does not come at the expense of the environment. This means that the energy used in building and operating infrastructure, such as trams and other transportation systems, must be sourced from clean renewables like solar. In addition, the materials used in construction must be chosen carefully to avoid waste and harm to natural resources, while also meeting safety standards to ensure the wellbeing of the public. To drive these changes, the Victorian Government has set ambitious targets to significantly reduce emissions by 2050, prioritizing the adoption of renewable energy across various sectors, including transportation.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Image and Text end -->
+        <script src="hum.js"></script>
+    </body>
+    </html>

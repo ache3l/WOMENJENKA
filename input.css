@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+  
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-cool-100: oklch(0.929 0.053 0.0); /* #EEEEEE */
+  --color-cool-200: oklch(0.429 0.547 186.7); /* #00ADB5 */
+  --color-cool-300: oklch(0.261 0.098 220.7); /* #393E46 */
+  --color-cool-400: oklch(0.206 0.116 210.1); /* #222831 */
+  --color-transparent: transparent;
+  --color-current: currentColor;   
+}

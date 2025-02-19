@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aaron Chen and William Ao" />
+        <title>HUM CAT</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    </head>
+    <body>
+        <!-- NAV START -->
+        <nav class="bg-cool-400 shadow-lg sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center py-4 px-2">
+                    <img src="img/logo.png" alt="Logo" class="h-8 mr-2" />
+                    <span class="font-semibold text-cool-100 text-lg"
+                    >WOMENJENKA</span
+                    >
+                </a>
+                </div>
+                <!-- Primary Navbar items -->
+                <div class="hidden md:flex items-center space-x-1">
+                <!--<a href="/" class="py-4 px-2 text-slate-100 font-semibold">HOME</a>-->
+                <a href="graph.html" class="py-4 px-2 text-cool-100 font-semibold"
+                    >GRAPH & NUMERICAL ANALYSIS</a
+                >
+                <a href="Historical_Source.html" class="py-4 px-2 text-cool-100 font-semibold"
+                    >HISTORICAL NEWSPAPER ANALYSIS</a
+                >
+                <a
+                    href="bibliography.html"
+                    class="py-4 px-2 text-cool-100 font-semibold"
+                    >BIBLIOGRAPHY</a
+                >
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                <button class="outline-none mobile-menu-button">
+                    <svg
+                    class="w-6 h-6 text-slate-100 hover:text-slate-900"
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    >
+                    <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                </div>
+            </div>
+            </div>
+            <!-- Mobile menu -->
+            <div class="hidden mobile-menu">
+            <ul>
+                <li class="active">
+                <a
+                    href="/"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >HOME</a
+                >
+                </li>
+                <li>
+                <a
+                    href="graph.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >GRAPH & NUMERICAL ANALYSIS</a
+                >
+                </li>
+                <li>
+                <a
+                    href="Historical_Source.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >HISTORICAL NEWSPAPER ANALYSIS</a
+                >
+                </li>
+                <li>
+                <a
+                    href="bibliography.html"
+                    class="block text-sm px-2 py-4 text-slate-100 hover:bg-gray-600 font-semibold"
+                    >Bibliography</a
+                >
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <!-- NAV END-->
+        
+        <!-- Add Image banner content start -->
+        <div class="mx-auto px-10 pt-7">
+            <h1
+            class="text-4xl font-bold tracking-tight text-black sm:text-5xl lg:text-5xl"
+            >
+            Primary Source (Click for more info)
+            </h1>
+        </div>
+        <section class="mx-auto px-10 py-9">
+            <div class="relative bg-gray-800">
+                <a href="https://trove.nla.gov.au/newspaper/article/66332154">
+                    <img
+                    alt="Newspaper"
+                    class="w-full h-full object-cover"
+                    height="1080"
+                    src="img/newspaper.png"
+                    width="1920"
+                    />
+                </a>
+            </div>
+        </section>
+        <!-- Add image banner content end -->
+
+        <!-- Introduction Text Section Start -->
+        <section class="bg-white px-6 py-12 md:px-12">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">HISTORICAL ANALYSIS</h2>
+                <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                    <strong>Why did the placement of railway stations on the Geelong and Ballarat railway line, particularly near Lal Lal and Warrenheip, attract criticism in the 1860s?</strong><br>
+                    This source is a newspaper article that discusses the irrational activity on the Geelong and Ballarat railway lines. The article mentions how some railway stations were built in close proximity, precisely 500 yards away (around 450 meters), which doesn’t use  the general public’s tax money with much consideration. This article named Geelong and Ballarat Railway, blames the foolishness of the government arguing that they chose to build a railway station in Lal Lal, which has a small population, but had no accommodation for transport in Warrenheip (nearby town) which has bigger population than Lal Lal and more goods and services. This source was created from the perspective of Australian journalist J.B.B who worked for a paper called The Star which originated in Ballarat. The Star had published this article on Monday, March 17, 1862. During that era, there was an influx of immigrants due to the gold rush in Ballarat. This was particularly true in 1852, where 6000 people came to Victoria every week and this continued till 1853. J.B.B’s motive was to share his displeasure about the activity on the Geelong and Ballarat line to general public in Ballarat. This source is very useful in understanding the unreasonable placement of railway stations on the Ballarat and Geelong line, since it states a detailed explanation about the population of Lal Lal and Warrenheip town, telling us about his expertise in the subject. Journalist J.B.B is a reliable writer as he lives around the suburb of Ballarat, in the town Warrenheip, so it would make sense for him to have first-hand knowledge on data concerning Warrenheip.                </p>
+            </div>
+        </section>
+        <!-- Introduction Text Section End -->
+
+        <script src="hum.js"></script>
+    </body>
+    </html>
